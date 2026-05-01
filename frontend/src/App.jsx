@@ -8,9 +8,9 @@ import SignupPage from "./pages/SignupPage";
 import ProtectedRoute from "./routes/ProtectedRoute";
 
 const AppShell = ({ children }) => (
-  <div>
+  <div className="min-h-screen">
     <Navbar />
-    <main className="mx-auto max-w-6xl px-4 py-6">{children}</main>
+    <main className="mx-auto max-w-6xl px-4 py-8">{children}</main>
   </div>
 );
 
